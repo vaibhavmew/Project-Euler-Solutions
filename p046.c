@@ -32,11 +32,9 @@ int main()
             }
             if(flag==1){
                 printf("%li ",i);
-
             }
             printf("\n");
         }
     }
-    // Direct Answer Not Available At Output //
     return 0;
 }
