@@ -1,5 +1,5 @@
 #include <stdio.h>
-# define N 15
+#define N 15
 int main()
 {
     int i,j,A[N][N];
