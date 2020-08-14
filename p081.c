@@ -106,13 +106,6 @@ int main()
                 A[i][j]+=A[i][j-1];
         }
     }
-//    printf("%I64u ",A[80][80]);
-    for(i=0;i<80;i++){
-        for(j=0;j<80;j++){
-            printf("%I64u ",A[i][j]);
-        }
-        printf("\n");
-    }
-    // The last output is the final answer. //
+    printf("%I64u",A[79][79]);
     return 0;
 }
